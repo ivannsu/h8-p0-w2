@@ -50,9 +50,7 @@
   2. STORE `pakaian` with 0 value
   3. WHILE `pakaian` LESS THAN `total` DO
      - SET `pakaian` = `pakaian` + 1
-     
-     END WHILE
-
+     <br/>END WHILE<br/>
   5. DISPLAY 'Total pakaian sudah 20'
 
 ## PERIKSA KUKU
