@@ -2,7 +2,7 @@
 
 ## NEWTON SECOND LAW
 
-### :fast_forward: [Algoritma]
+### [Algoritma]
 
   1. Simpan `massa` dengan nilai 600
   2. Simpan `percepatan` dengan nilai 2m/s2
@@ -12,7 +12,7 @@
   5. Kemudian simpan hasil perkalian ke `gaya`
   6. Tampilkan nilai `gaya`
 
-### :fast_forward: [PseudoCode]
+### [PseudoCode]
 
   1. STORE `massa` with 600
   2. STORE `percepatan` with 2m/s2
@@ -23,19 +23,19 @@
 
 ## TAHUN KABISAT
 
-### :fast_forward: [Algoritma]
+### [Algoritma]
 
   1. Simpan `tahun` dengan nilai tahun sekarang (contoh: 2018)
   2. Simpan `sisa` tanpa nilai, `sisa` akan kita isi dengan nilai sisa hasil pembagian  
   3. Hitung `tahun` dibagi 4 dan dapatkan sisa pembagian nya.
      3.a Jika sisa pembagian sama dengan 0 maka tampilkan 'Tahun Kabisat'
 
-### :fast_forward: [PseudoCode]
+### [PseudoCode]
 
 
 ## LAUNDRY DAY
 
-### :fast_forward: [Algoritma]
+### [Algoritma]
 
   1. Simpan `total` dengan nilai 20
   2. Simpan `pakaian` dengan nilai 0
@@ -44,7 +44,7 @@
      - `pakaian` ditambah 1
   4. Tampilkan 'Total pakaian sudah 20'
 
-### :fast_forward: [PseudoCode]
+### [PseudoCode]
 
   1. STORE `total` with any number value (example: 20)
   2. STORE `pakaian` with 0 value
@@ -57,7 +57,7 @@
 
 ## PERIKSA KUKU
 
-### :fast_forward: [Algoritma]
+### [Algoritma]
 
   1. Simpan `jumlah` dengan nilai 40
   2. Simpan `siswake` dengan nilai 0
@@ -73,7 +73,7 @@
            `siswake` ditambah 1
            Kembali ke langkah No.3
 
-### :fast_forward: [PseudoCode]
+### [PseudoCode]
 
   STORE `jumlah` with any number value (example: 40)
 
