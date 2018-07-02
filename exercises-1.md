@@ -50,8 +50,10 @@
   2. STORE `pakaian` with 0 value
   3. WHILE `pakaian` LESS THAN `total` DO
      - SET `pakaian` = `pakaian` + 1
-     <br/>END WHILE<br/>
-  5. DISPLAY 'Total pakaian sudah 20'
+
+     END WHILE
+
+  4. DISPLAY 'Total pakaian sudah 20'
 
 ## PERIKSA KUKU
 
@@ -60,11 +62,14 @@
   1. Simpan `jumlah` dengan nilai 40
   2. Simpan `siswake` dengan nilai 0
   3. Ulangi alur proses berikut ini sampai `siswake` lebih dari `jumlah`:
-     3a. Jika Siswa ke `siswake` kuku nya panjang maka
+     - Jika Siswa ke `siswake` kuku nya panjang maka
+
            BERIKAN HUKUMAN
            `siswake` ditambah 1
            Kembali ke langkah No.3
-     3b. Jika tidak maka
+
+     - Jika tidak maka
+
            `siswake` ditambah 1
            Kembali ke langkah No.3
 
@@ -74,9 +79,14 @@
   STORE `siswake` with 0
 
   WHILE `siswake` LESS THAN `jumlah` DO
+
     IF `siswake` == KUKU NYA PANJANG
+
       BERIKAN HUKUMAN
       SET `siswake` = `siswake` + 1
+
     ELSE
+
       SET `siswake` = `siswake` + 1
+
   ENDWHILE
