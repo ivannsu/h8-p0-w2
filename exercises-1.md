@@ -8,9 +8,7 @@
   2. Simpan `percepatan` dengan nilai 2m/s2
   3. Simpan `gaya` tanpa nilai, `gaya` akan kita isi nanti
   4. Hitung gaya dengan rumus sebagai berikut:
-
-       `massa` dikali `percepatan`
-
+     - `massa` dikali `percepatan`
   5. Kemudian simpan hasil perkalian ke `gaya`
   6. Tampilkan nilai `gaya`
 
