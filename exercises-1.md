@@ -76,6 +76,7 @@
 ### [PseudoCode]
 
   STORE `jumlah` with any number value (example: 40)
+
   STORE `siswake` with 0
 
   WHILE `siswake` LESS THAN `jumlah` DO
