@@ -1,9 +1,9 @@
 # Exercises 1
 
 ## NEWTON SECOND LAW
-   
+
 ### [Algoritma]
-   
+
   1. Simpan `massa` dengan nilai 600
   2. Simpan `percepatan` dengan nilai 2m/s2
   3. Simpan `gaya` tanpa nilai, `gaya` akan kita isi nanti
@@ -13,13 +13,13 @@
   6. Tampilkan nilai `gaya`
 
 ### [PseudoCode]
-  
+
   1. STORE `massa` with 600
   2. STORE `percepatan` with 2m/s2
   3. STORE `gaya` without any value
   4. CALCULATE `massa` * `percepatan`
   5. SET `gaya` with calculation result
-  6. DISPLAY `gaya` 
+  6. DISPLAY `gaya`
 
 ## TAHUN KABISAT
 
@@ -29,7 +29,7 @@
   2. Simpan `sisa` tanpa nilai, `sisa` akan kita isi dengan nilai sisa hasil pembagian  
   3. Hitung `tahun` dibagi 4 dan dapatkan sisa pembagian nya.
      3.a Jika sisa pembagian sama dengan 0 maka tampilkan 'Tahun Kabisat'
-  
+
 ### [PseudoCode]
 
 
@@ -50,7 +50,9 @@
   2. STORE `pakaian` with 0 value
   3. WHILE `pakaian` LESS THAN `total` DO
      - SET `pakaian` = `pakaian` + 1
+     
      END WHILE
+
   5. DISPLAY 'Total pakaian sudah 20'
 
 ## PERIKSA KUKU
@@ -67,7 +69,7 @@
      3b. Jika tidak maka
            `siswake` ditambah 1
            Kembali ke langkah No.3
-  
+
 ### [PseudoCode]
 
   STORE `jumlah` with any number value (example: 40)
