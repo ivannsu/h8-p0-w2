@@ -8,20 +8,20 @@
   2. Simpan `percepatan` dengan nilai 2m/s2
   3. Simpan `gaya` tanpa nilai, `gaya` akan kita isi nanti
   4. Hitung gaya dengan rumus sebagai berikut:
+
        `massa` dikali `percepatan`
+
   5. Kemudian simpan hasil perkalian ke `gaya`
   6. Tampilkan nilai `gaya`
 
 ### [PseudoCode]
   
-  STORE `massa` with 600
-  STORE `percepatan` with 2m/s2
-  STORE `gaya` without any value
-  
-  CALCULATE `massa` * `percepatan`
-  SET `gaya` with calculation result
-
-  DISPLAY `gaya` 
+  1. STORE `massa` with 600
+  2. STORE `percepatan` with 2m/s2
+  3. STORE `gaya` without any value
+  4. CALCULATE `massa` * `percepatan`
+  5. SET `gaya` with calculation result
+  6. DISPLAY `gaya` 
 
 ## TAHUN KABISAT
 
