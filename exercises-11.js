@@ -1,9 +1,6 @@
-var result;
-var flag;
-
 function balikKata(kata) {
-  result = '';
-  flag = kata.length;
+  var result = '';
+  var flag = kata.length;
 
   while(result.length < kata.length) {
     var character = kata[flag - 1];
