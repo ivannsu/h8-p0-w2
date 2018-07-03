@@ -39,7 +39,7 @@
 
   1. Simpan `total` dengan nilai 20
   2. Simpan `pakaian` dengan nilai 0
-  3. Ulangi alur proses berikut ini sampai `pakaian` lebih dari `total`:
+  3. SELAMA `pakaian` KURANG DARI atau SAMA DENGAN `total`, LAKUKAN:
      - Masukan pakaian ke dalam mesin cuci
      - `pakaian` ditambah 1
   4. Tampilkan 'Total pakaian sudah 20'
@@ -61,7 +61,7 @@
 
   1. Simpan `jumlah` dengan nilai 40
   2. Simpan `siswake` dengan nilai 0
-  3. Ulangi alur proses berikut ini sampai `siswake` lebih dari `jumlah`:
+  3. SELAMA `siswake` KURANG DARI atau SAMA DENGAN `jumlah` LAKUKAN:
      - Jika Siswa ke `siswake` kuku nya panjang maka
 
            BERIKAN HUKUMAN
