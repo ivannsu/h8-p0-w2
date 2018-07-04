@@ -41,50 +41,27 @@ while(a <= 100) {
   }
 }
 
-// 3a. tiga kelipatan tiga dengan pertambahan counter sebesar 2
-var counter = 1;
-var result = 1;
+function tampilkanKelipatan(counter, penambahan, kelipatan) {
+  var result = counter;
 
-while(counter <= 100) {
-  result += 2; // Penambahan sebesar 2
+  while(counter <= 100) {
+    result += penambahan;
 
-  if(result % 3 === 0) {
-    console.log('('+ result +')' + ' - ' + '3 kelipatan 3');
-  } else {
-    console.log('('+ result +')' + ' - ' + 'bukan');
+    if(result % kelipatan === 0) {
+      console.log('('+ result +')' + ' - ' + kelipatan +' kelipatan ' + kelipatan);
+    } else {
+      console.log('('+ result +')' + ' - ' + 'bukan');
+    }
+
+    counter += penambahan;
   }
-
-  counter += 2;
 }
+
+// 3a. tiga kelipatan tiga dengan pertambahan counter sebesar 2
+tampilkanKelipatan(1, 2, 3);
 
 // 3b. enam kelipatan enam dengan pertambahan counter sebesar 5
-var counter2 = 1;
-var result2 = 1;
-
-while(counter2 <= 100) {
-  result2 += 5; // Penambahan sebesar 5
-
-  if(result2 % 6 === 0) {
-    console.log('('+ result2 +')' + ' - ' + '6 kelipatan 6');
-  } else {
-    console.log('('+ result2 +')' + ' - ' + 'bukan');
-  }
-
-  counter2 += 5;
-}
+tampilkanKelipatan(1, 5, 6);
 
 // 3c. sepuluh kelipatan sepuluh dengan pertambahan counter sebesar 9
-var counter3 = 1;
-var result3 = 1;
-
-while(counter3 <= 100) {
-  result3 += 9; // Penambahan sebesar 5
-
-  if(result3 % 10 === 0) {
-    console.log('('+ result3 +')' + ' - ' + '10 kelipatan 10');
-  } else {
-    console.log('('+ result3 +')' + ' - ' + 'bukan');
-  }
-
-  counter3 += 9;
-}
+tampilkanKelipatan(1, 9, 10);
