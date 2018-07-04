@@ -48,14 +48,14 @@
 
 ### [PseudoCode]
 
-  STORE `tahun` with year value (example: 2018)
-  STORE `sisa` without value.
-  STORE `sisa2` without value.
-  STORE `sisa3` without value.
+  * STORE `tahun` with year value (example: 2018)
+  * STORE `sisa` without value.
+  * STORE `sisa2` without value.
+  * STORE `sisa3` without value.
 
-  CALCULATE `tahun` % 4, SET `sisa` with calculate result
-  CALCULATE `tahun` % 100, SET `sisa2` with calculate result
-  CALCULATE `tahun` % 400, SET `sisa3` with calculate result
+  * CALCULATE `tahun` % 4, SET `sisa` with calculate result
+  * CALCULATE `tahun` % 100, SET `sisa2` with calculate result
+  * CALCULATE `tahun` % 400, SET `sisa3` with calculate result
 
   IF `sisa` == 0 AND `sisa2` !== 0:
 
