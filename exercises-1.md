@@ -36,15 +36,15 @@
 
   7. Jika `sisa` sama dengan 0 DAN `sisa2` selain dari 0 maka:
 
-        TAMPILKAN 'Tahun Kabisat'
+      - TAMPILKAN 'Tahun Kabisat'
 
      Jika `sisa` sama dengan 0 DAN `sisa2` sama dengan 0 DAN `sisa3` sama dengan 0 maka:
 
-        TAMPILKAN 'Tahun Kabisat'
+      - TAMPILKAN 'Tahun Kabisat'
 
      Selain itu:
 
-        TAMPILKAN 'Tahun ini BUKAN Tahun Kabisat'
+      - TAMPILKAN 'Tahun ini BUKAN Tahun Kabisat'
 
 ### [PseudoCode]
 
@@ -59,15 +59,15 @@
 
   IF `sisa` == 0 AND `sisa2` !== 0:
 
-    DISPLAY 'Tahun Kabisat'
+    - DISPLAY 'Tahun Kabisat'
 
   ELSE IF `sisa` == 0 AND `sisa2` == 0 AND `sisa3` == 0:
 
-    DISPLAY 'Tahun Kabisat'
+    - DISPLAY 'Tahun Kabisat'
 
   ELSE
 
-    DISPLAY 'Tahun ini BUKAN Tahun Kabisat'
+    - DISPLAY 'Tahun ini BUKAN Tahun Kabisat'
 
   END IF
 
