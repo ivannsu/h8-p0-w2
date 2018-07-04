@@ -1,4 +1,4 @@
-// 1. Melakukan Looping Menggunakan While
+// 1. Melakukan Looping Menggunakan While.
 var x = 2;
 
 console.log('LOOPING PERTAMA');
