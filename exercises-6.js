@@ -29,14 +29,62 @@
 // }
 
 // 3. Angka Ganjil dan Genap
-var a = 1;
+// var a = 1;
+//
+// while(a <= 100) {
+//   if((a % 2) !== 0) {
+//     console.log('GANJIL');
+//     a++;
+//   } else {
+//     console.log('GENAP');
+//     a++;
+//   }
+// }
 
-while(a <= 100) {
-  if((a % 2) !== 0) {
-    console.log('GANJIL');
-    a++;
+// 3a. tiga kelipatan tiga dengan pertambahan counter sebesar 2
+// var counter = 1;
+// var result = 1;
+//
+// while(counter <= 100) {
+//   result += 2; // Penambahan sebesar 2
+//
+//   if(result % 3 === 0) {
+//     console.log('('+ result +')' + ' - ' + '3 kelipatan 3');
+//   } else {
+//     console.log('('+ result +')' + ' - ' + 'bukan');
+//   }
+//
+//   counter += 2;
+// }
+
+// 3b. enam kelipatan enam dengan pertambahan counter sebesar 5
+// var counter = 1;
+// var result = 1;
+//
+// while(counter <= 100) {
+//   result += 5; // Penambahan sebesar 5
+//
+//   if(result % 6 === 0) {
+//     console.log('('+ result +')' + ' - ' + '6 kelipatan 6');
+//   } else {
+//     console.log('('+ result +')' + ' - ' + 'bukan');
+//   }
+//
+//   counter += 5;
+// }
+
+// 3c. sepuluh kelipatan sepuluh dengan pertambahan counter sebesar 9
+var counter = 1;
+var result = 1;
+
+while(counter <= 100) {
+  result += 9; // Penambahan sebesar 5
+
+  if(result % 10 === 0) {
+    console.log('('+ result +')' + ' - ' + '10 kelipatan 10');
   } else {
-    console.log('GENAP');
-    a++;
+    console.log('('+ result +')' + ' - ' + 'bukan');
   }
+
+  counter += 9;
 }
