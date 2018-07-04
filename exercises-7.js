@@ -1,17 +1,27 @@
 // 1. Menyusun Barisan Bintang
-var rows1 = 5;
-var i;
 
-for(i = 0; i < rows1; i++) {
+for(var i = 0; i < 5; i++) {
   console.log('*');
 }
 
 // 2. Menyusun Barisan Bintang Dengan Nested Looping
-var asterisks = '*';
-var rows2 = 5;
-var x;
-var y;
+for(var i = 0; i < 5; i++) {
 
-for(x = 0; x < rows2; x++) {
-  
+  var asterisks = '';
+
+  for(var j = 0; j < 5; j++) {
+    asterisks += '*';
+  }
+
+  console.log(asterisks);
+}
+
+// 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
+var asterisks = '';
+
+for(var i = 0; i < 5; i++) {
+
+  asterisks += '*';
+
+  console.log(asterisks);
 }
