@@ -26,12 +26,39 @@
 ### [Algoritma]
 
   1. Simpan `tahun` dengan nilai tahun sekarang (contoh: 2018)
-  2. Simpan `sisa` tanpa nilai, `sisa` akan kita isi dengan nilai sisa hasil pembagian  
-  3. Hitung `tahun` dibagi 4 dan dapatkan sisa pembagian nya.
-     3.a Jika sisa pembagian sama dengan 0 maka tampilkan 'Tahun Kabisat'
+  2. Simpan `sisa` tanpa nilai, `sisa` akan kita isi dengan nilai sisa hasil pembagian
+  3. Simpan `sisa2` tanpa nilai
+  4. Simpan `sisa3` tanpa nilai
+
+  4. Hitung `tahun` dibagi 4, kemudian sisa pembagian nya di simpan ke `sisa`
+  5. Hitung `tahun` dibagi 100, kemudian sisa pembagian nya di simpan ke `sisa2`
+  6. Hitung `tahun` dibagi 400, kemudian sisa pembagian nya di simpan ke `sisa3`
+
+  7. Jika `sisa` sama dengan 0 DAN `sisa2` selain dari 0 maka:
+        TAMPILKAN 'Tahun Kabisat'
+     Jika `sisa` sama dengan 0 DAN `sisa2` sama dengan 0 DAN `sisa3` sama dengan 0 maka:
+        TAMPILKAN 'Tahun Kabisat'
+     Selain itu:
+        TAMPILKAN 'Tahun ini BUKAN Tahun Kabisat'
 
 ### [PseudoCode]
 
+  STORE `tahun` with year value (example: 2018)
+  STORE `sisa` without value.
+  STORE `sisa2` without value.
+  STORE `sisa3` without value.
+
+  CALCULATE `tahun` % 4, SET `sisa` with calculate result
+  CALCULATE `tahun` % 100, SET `sisa2` with calculate result
+  CALCULATE `tahun` % 400, SET `sisa3` with calculate result
+
+  IF `sisa` == 0 AND `sisa2` !== 0:
+    DISPLAY 'Tahun Kabisat'
+  ELSE IF `sisa` == 0 AND `sisa2` == 0 AND `sisa3` == 0:
+    DISPLAY 'Tahun Kabisat'
+  ELSE
+    DISPLAY 'Tahun ini BUKAN Tahun Kabisat'
+  END IF
 
 ## LAUNDRY DAY
 
@@ -90,4 +117,5 @@
 
       SET `siswake` = `siswake` + 1
 
+    END IF
   ENDWHILE
