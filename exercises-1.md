@@ -35,10 +35,15 @@
   6. Hitung `tahun` dibagi 400, kemudian sisa pembagian nya di simpan ke `sisa3`
 
   7. Jika `sisa` sama dengan 0 DAN `sisa2` selain dari 0 maka:
+
         TAMPILKAN 'Tahun Kabisat'
+
      Jika `sisa` sama dengan 0 DAN `sisa2` sama dengan 0 DAN `sisa3` sama dengan 0 maka:
+
         TAMPILKAN 'Tahun Kabisat'
+
      Selain itu:
+
         TAMPILKAN 'Tahun ini BUKAN Tahun Kabisat'
 
 ### [PseudoCode]
@@ -53,11 +58,17 @@
   CALCULATE `tahun` % 400, SET `sisa3` with calculate result
 
   IF `sisa` == 0 AND `sisa2` !== 0:
+
     DISPLAY 'Tahun Kabisat'
+
   ELSE IF `sisa` == 0 AND `sisa2` == 0 AND `sisa3` == 0:
+
     DISPLAY 'Tahun Kabisat'
+
   ELSE
+
     DISPLAY 'Tahun ini BUKAN Tahun Kabisat'
+
   END IF
 
 ## LAUNDRY DAY
